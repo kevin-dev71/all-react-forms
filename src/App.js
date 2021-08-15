@@ -1,12 +1,11 @@
 import "./App.css"
-import FormikForm from "./components/FormikForm"
-
-import RegularForm from "./components/RegularForm"
+import ReactHookForm from "./components/ReactHookForm"
 
 function App() {
   return (
     <>
-    <FormikForm />
+    <ReactHookForm />
+    {/* <FormikForm /> */}
     {/* <RegularForm /> */}
     </>
   )
