@@ -1,8 +1,6 @@
 const FormErrors = ({
   emailErrorMsg = "",
-  passwordErrorMsg = "",
-  emailTouched = false,
-  passwordTouched = false,
+  passwordErrorMsg = ""
 }) => {
   if (!emailErrorMsg && !passwordErrorMsg) {
     return null
